@@ -1,0 +1,22 @@
+<project name="ECLECTIC" version="2" expanded="True" binary="ECLECTIC" source="Includes\Headers.asm">
+  <build default="false">Build\TI-83 (Ion).cmd</build>
+  <build default="false">Build\TI-83 (Native).cmd</build>
+  <build default="false">Build\TI-83 (Venus).cmd</build>
+  <build default="false">Build\TI-83 Plus (Ion).cmd</build>
+  <build default="false">Build\TI-83 Plus (MirageOS).cmd</build>
+  <build default="true">Build\TI-83 Plus (Native).cmd</build>
+  <help file="brass.xml" />
+  <help file="ion.xml" />
+  <help file="mirage.xml" />
+  <help file="ti83p.xml" />
+  <help file="tios_entrypoints.xml" />
+  <help file="tios_values.xml" />
+  <help file="z80.xml" />
+  <openfile default="True">Program.asm</openfile>
+  <openfile>Program.bin.inc</openfile>
+  <openfile>Resources\Notes.asm</openfile>
+  <expandedfolder>\Data</expandedfolder>
+  <expandedfolder>\Options</expandedfolder>
+  <expandedfolder>\Resources</expandedfolder>
+  <expandedfolder>\Routines</expandedfolder>
+</project>

@@ -1,0 +1,6 @@
+[TilEm#02]
+# you can modify this file if you're careful
+model = *
+modulespeed = y
+keyboard = y
+autosave = y
